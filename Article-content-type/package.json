@@ -1,0 +1,25 @@
+{
+  "name": "strapi-migration-script",
+  "version": "1.0.0",
+  "description": "Script to migrate CSV data to Strapi CMS",
+  "main": "migrate-to-strapi.js",
+  "scripts": {
+    "migrate": "node migrate-to-strapi.js",
+    "test-connection": "node test-connection.js",
+    "preview": "node preview-migration.js",
+    "download-assets": "node download-assets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "csv-parser": "^3.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "migration",
+    "csv",
+    "cms"
+  ],
+  "author": "",
+  "license": "MIT"
+}

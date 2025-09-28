@@ -1,0 +1,165 @@
+{
+  "info": {
+    "name": "Strapi Attractions API",
+    "description": "Collection for uploading attractions data to Strapi CMS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:1337",
+      "type": "string"
+    },
+    {
+      "key": "apiToken",
+      "value": "your-api-token-here",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create Attraction",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"{{attractionName}}\",\n    \"Slug\": \"{{attractionSlug}}\",\n    \"Rating\": {{rating}},\n    \"Description\": \"{{description}}\",\n    \"Tag1\": \"{{tag1}}\",\n    \"Tag2\": \"{{tag2}}\",\n    \"Tag3\": \"{{tag3}}\",\n    \"Formatted_Address\": \"{{formattedAddress}}\",\n    \"Location\": \"{{location}}\",\n    \"Main_Title\": \"{{mainTitle}}\",\n    \"City\": \"{{city}}\",\n    \"Country\": \"{{country}}\",\n    \"Overview\": \"{{overview}}\",\n    \"Intro\": \"{{intro}}\",\n    \"Short_Summary\": \"{{shortSummary}}\",\n    \"Entry_Fee\": \"{{entryFee}}\",\n    \"Visitor_Count\": {{visitorCount}},\n    \"Visitor_Count_Description\": \"{{visitorCountDescription}}\",\n    \"Review_Count\": {{reviewCount}},\n    \"Review_Rating\": \"{{reviewRating}}\",\n    \"Review_Text\": \"{{reviewText}}\",\n    \"Review_Link\": \"{{reviewLink}}\",\n    \"FAQ1\": \"{{faq1}}\",\n    \"FAQ2\": \"{{faq2}}\",\n    \"FAQ3\": \"{{faq3}}\",\n    \"FAQ4\": \"{{faq4}}\",\n    \"FAQ5\": \"{{faq5}}\",\n    \"publishedAt\": \"{{publishedAt}}\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/attractions",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "attractions"]
+        }
+      }
+    },
+    {
+      "name": "Upload Main Image",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "files",
+              "type": "file",
+              "src": "{{mainImagePath}}"
+            },
+            {
+              "key": "refId",
+              "value": "{{attractionId}}",
+              "type": "text"
+            },
+            {
+              "key": "ref",
+              "value": "api::attraction.attraction",
+              "type": "text"
+            },
+            {
+              "key": "field",
+              "value": "Main_Image",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/upload",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "upload"]
+        }
+      }
+    },
+    {
+      "name": "Upload Photos",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "files",
+              "type": "file",
+              "src": "{{photo1Path}}"
+            },
+            {
+              "key": "files",
+              "type": "file",
+              "src": "{{photo2Path}}"
+            },
+            {
+              "key": "files",
+              "type": "file",
+              "src": "{{photo3Path}}"
+            },
+            {
+              "key": "refId",
+              "value": "{{attractionId}}",
+              "type": "text"
+            },
+            {
+              "key": "ref",
+              "value": "api::attraction.attraction",
+              "type": "text"
+            },
+            {
+              "key": "field",
+              "value": "Photos",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/upload",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "upload"]
+        }
+      }
+    },
+    {
+      "name": "Update Attraction with Blocks",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{innerPageContent}}\"\n          }\n        ]\n      }\n    ],\n    \"Opening_Hours\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{openingHours}}\"\n          }\n        ]\n      }\n    ],\n    \"Amenities\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{amenities}}\"\n          }\n        ]\n      }\n    ],\n    \"Best_Time_to_Visit\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{bestTimeToVisit}}\"\n          }\n        ]\n      }\n    ],\n    \"Photography_Allowed\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{photographyAllowed}}\"\n          }\n        ]\n      }\n    ],\n    \"Accessibility_Notes\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{accessibilityNotes}}\"\n          }\n        ]\n      }\n    ],\n    \"Cultural_or_Religous_Notes\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{culturalNotes}}\"\n          }\n        ]\n      }\n    ],\n    \"Historical_Significance\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{historicalSignificance}}\"\n          }\n        ]\n      }\n    ],\n    \"Famous_Events_or_Dates\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{famousEvents}}\"\n          }\n        ]\n      }\n    ],\n    \"Time_Required_to_Explore\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{timeRequired}}\"\n          }\n        ]\n      }\n    ],\n    \"Kid_or_Family_Friendly\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{familyFriendly}}\"\n          }\n        ]\n      }\n    ],\n    \"Weather_Sensitivity\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{weatherSensitivity}}\"\n          }\n        ]\n      }\n    ],\n    \"Transportation_and_Accessibility\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"{{transportation}}\"\n          }\n        ]\n      }\n    ]\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/attractions/{{attractionId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "attractions", "{{attractionId}}"]
+        }
+      }
+    }
+  ]
+}
