@@ -283,3 +283,4 @@ console.log('Generated files:');
 console.log('- strapi_attractions_data.json: Complete Strapi data for all attractions');
 console.log('- postman_variables.json: Postman variables for all attractions');
 console.log('- sample_request_bodies.json: Sample request bodies for first 3 attractions');
+

@@ -107,6 +107,14 @@
         "videos"
       ]
     },
+    "Blog_Part_1_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_1": {
       "type": "blocks",
       "pluginOptions": {
@@ -128,6 +136,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_2_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_2": {
       "type": "blocks",
@@ -151,6 +167,14 @@
         "videos"
       ]
     },
+    "Blog_Part_3_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_3": {
       "type": "blocks",
       "pluginOptions": {
@@ -172,6 +196,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_4_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_4": {
       "type": "blocks",
@@ -195,6 +227,14 @@
         "videos"
       ]
     },
+    "Blog_Part_5_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_5": {
       "type": "blocks",
       "pluginOptions": {
@@ -216,6 +256,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_6_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_6": {
       "type": "blocks",
@@ -239,6 +287,14 @@
         "videos"
       ]
     },
+    "Blog_Part_7_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_7": {
       "type": "blocks",
       "pluginOptions": {
@@ -260,6 +316,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_8_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_8": {
       "type": "blocks",
@@ -283,6 +347,14 @@
         "videos"
       ]
     },
+    "Blog_Part_9_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_9": {
       "type": "blocks",
       "pluginOptions": {
@@ -304,6 +376,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_10_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_10": {
       "type": "blocks",
@@ -327,6 +407,14 @@
         "videos"
       ]
     },
+    "Blog_Part_11_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_11": {
       "type": "blocks",
       "pluginOptions": {
@@ -348,6 +436,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_12_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_12": {
       "type": "blocks",
@@ -371,6 +467,14 @@
         "videos"
       ]
     },
+    "Blog_Part_13_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_13": {
       "type": "blocks",
       "pluginOptions": {
@@ -393,6 +497,14 @@
         "videos"
       ]
     },
+    "Blog_Part_14_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "Blog_Part_14": {
       "type": "blocks",
       "pluginOptions": {
@@ -414,6 +526,14 @@
         "files",
         "videos"
       ]
+    },
+    "Blog_Part_15_Title": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Blog_Part_15": {
       "type": "blocks",

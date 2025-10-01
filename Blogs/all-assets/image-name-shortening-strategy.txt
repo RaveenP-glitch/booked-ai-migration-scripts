@@ -1,0 +1,42 @@
+## **Image Name Shortening Strategy**
+
+**Original Format**
+
+The original image names followed this pattern:
+
+{24-character-hash}_{AD_4nX...very-long-string}.{extension}
+
+**Example:**
+
+669dfd7c907c8231706bbae0_AD_4nXfYxtFziPRMfvEC5KPwTEk8XyAUWBw9jbtsQ94oslNPrsTLpXxqPfre21sGNTWBetanw1E7tRyk8xqzI08fr1sRr8SskvfIrtsuB9FFm05AIc2pp0XsYwQHOiNZNTzcnN5j-mKAPFx5T44CC5DxObrW5o0A.png
+
+**Shortening Rules**
+
+1. **Hash Truncation**: Take only the **first 8 characters** of the 24-character hash
+- 669dfd7c907c8231706bbae0 → 669dfd7c
+1. **AD Part Truncation**: Extract the first **12 characters** after "AD_"
+- AD_4nXfYxtFziPRMfvEC5KPwTEk8XyAUWBw9jbtsQ94oslNPrsTLpXxqPfre21sGNTWBetanw1E7tRyk8xqzI08fr1sRr8SskvfIrtsuB9FFm05AIc2pp0XsYwQHOiNZNTzcnN5j-mKAPFx5T44CC5DxObrW5o0A → AD_4nXfYxtFzi
+1. **File Extension**: Preserve the original extension (.jpeg, .png, .webp)
+2. **Collision Handling**: When multiple files would have the same shortened name, add a sequential number
+- 669dfd7c_AD.png (first occurrence)
+- 669dfd7c_AD_101.png (second occurrence)
+- 669dfd7c_AD_102.png (third occurrence)
+- etc.
+
+**Final Format{8-char-hash}_{AD_12-chars}{_number-if-needed}.{extension}**
+
+**Examples from Your Directory**
+
+| Original Hash | Shortened Hash | AD Part (12 chars) | Final Name |
+| --- | --- | --- | --- |
+| 669dfd7c907c8231706bbae0 | 669dfd7c | AD_4nXfYxtFzi | 669dfd7c_AD_104.png |
+| 676b804e8327bebca3a715d9 | 676b804e | AD_4nXerx0a5 | 676b804e_AD_427.jpeg |
+| 67aa3bea7356f39ecf666c47 | 67aa3bea | AD_4nXetsO72 | 67aa3bea_AD.jpeg |
+
+**Benefits of This Strategy**
+
+1. **Significantly Shorter**: Reduced from ~200+ characters to ~20-25 characters
+2. **Unique Identification**: Each image maintains a unique identifier
+3. **Collision Prevention**: Sequential numbering handles duplicate shortened names
+4. **Preserved Extensions**: File types remain intact
+5. **Readable**: Much easier to work with in file systems and scripts
