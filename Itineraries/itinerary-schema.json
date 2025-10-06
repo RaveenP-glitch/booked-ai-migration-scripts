@@ -1,0 +1,210 @@
+{
+    "kind": "collectionType",
+    "collectionName": "itineraries",
+    "info": {
+      "singularName": "itinerary",
+      "pluralName": "itineraries",
+      "displayName": "Itineraries",
+      "description": ""
+    },
+    "options": {
+      "draftAndPublish": true
+    },
+    "pluginOptions": {
+      "i18n": {
+        "localized": true
+      }
+    },
+    "attributes": {
+      "Name": {
+        "type": "string",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        },
+        "required": true
+      },
+      "Slug": {
+        "type": "uid",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        },
+        "targetField": "Name"
+      },
+      "Short_Description": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Main_Image": {
+        "type": "media",
+        "multiple": false,
+        "required": false,
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos"
+        ],
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Itineraray_Title": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Thumbnail_Image": {
+        "type": "media",
+        "multiple": false,
+        "required": false,
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos"
+        ],
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Itinerary_Image": {
+        "type": "media",
+        "multiple": false,
+        "required": false,
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos"
+        ]
+      },
+      "Itinerary1": {
+        "type": "blocks"
+      },
+      "Itinerary2": {
+        "type": "blocks"
+      },
+      "Itinerary3": {
+        "type": "blocks"
+      },
+      "Itinerary4": {
+        "type": "blocks"
+      },
+      "Itinerary5": {
+        "type": "blocks"
+      },
+      "Itinerary6": {
+        "type": "blocks"
+      },
+      "Itinerary7": {
+        "type": "blocks"
+      },
+      "Tag1": {
+        "type": "string",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Tag2": {
+        "type": "string",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "Tag3": {
+        "type": "string",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ1": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ2": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ3": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ4": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ5": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ6": {
+        "type": "text",
+        "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
+        }
+      },
+      "FAQ_1_Detail": {
+        "type": "blocks"
+      },
+      "FAQ_2_Detail": {
+        "type": "blocks"
+      },
+      "FAQ_3_Detail": {
+        "type": "blocks"
+      },
+      "FAQ_4_Detail": {
+        "type": "blocks"
+      },
+      "FAQ_5_Detail": {
+        "type": "blocks"
+      },
+      "FAQ_6_Detail": {
+        "type": "blocks"
+      },
+      "Sitemap_Indexing": {
+        "type": "boolean",
+        "default": true
+      }
+    }
+  }
+  

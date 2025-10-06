@@ -1,0 +1,39 @@
+UPLOAD STATUS VERIFICATION REPORT
+========================================
+
+Total compressed images: 3147
+Successfully uploaded to Strapi: 3147
+Still missing (not uploaded): 0
+Already in missing-images folder: 0
+Total uploaded images in JSON: 4924
+
+Upload completion rate: 100.0%
+
+STILL MISSING IMAGES:
+--------------------
+
+ALREADY IN MISSING-IMAGES FOLDER:
+-----------------------------------
+
+RECENTLY UPLOADED IMAGES (sample):
+-----------------------------------
+ 1. 682a84050d5edadd2aa2247c_eb01abac-13e0-49d8-8882-edf1d304618f_result22c77ca43d77542a.jpeg -> 682a84050d5edadd2aa2247c_eb01abac-13e0-49d8-8882-edf1d304618f_result22c77ca43d77542a.jpeg (ID: 2177)
+ 2. 6870edccdf95b61439a8ed30_28f6b0b0-0682-4881-b578-727216469061_resultd8bd7ece4410abbe.jpeg -> 6870edccdf95b61439a8ed30_28f6b0b0-0682-4881-b578-727216469061_resultd8bd7ece4410abbe.jpeg (ID: 3991)
+ 3. 685d00bc41a4ef647f412bd3_ac251c07-8508-4985-bc81-d9efda40e0cb_result776dd79aa2065fcc.jpeg -> 685d00bc41a4ef647f412bd3_ac251c07-8508-4985-bc81-d9efda40e0cb_result776dd79aa2065fcc.jpeg (ID: 2676)
+ 4. 6879ce3c499c42301fbb5dda_2d7277eb-e453-4f23-880e-3a527243df3d_result92def0c98f0932da.jpeg -> 6879ce3c499c42301fbb5dda_2d7277eb-e453-4f23-880e-3a527243df3d_result92def0c98f0932da.jpeg (ID: 4073)
+ 5. 684c671459473e60d3ba3e3e_9a597c7d-3680-431d-bfa3-217afd6314be_resultbac6f02a90e569c6.jpeg -> 684c671459473e60d3ba3e3e_9a597c7d-3680-431d-bfa3-217afd6314be_resultbac6f02a90e569c6.jpeg (ID: 2390)
+ 6. 689023ce3b4cd814b2a71c55_73c505bb-3be0-47ba-9342-b20277cb4b6f_resulta48717f21a07464e.jpeg -> 689023ce3b4cd814b2a71c55_73c505bb-3be0-47ba-9342-b20277cb4b6f_resulta48717f21a07464e.jpeg (ID: 4756)
+ 7. 683eaf415c3a5742c7f0d12a_0747f821-7a6a-41ba-a684-9e87608565c8_result5bab47e24a4e3f52.jpeg -> 683eaf415c3a5742c7f0d12a_0747f821-7a6a-41ba-a684-9e87608565c8_result5bab47e24a4e3f52.jpeg (ID: 2211)
+ 8. 686649670b09c02a26244e69_54ace382-8079-4e84-a364-c98f5cd78cd1_resultf152cb9b760eacf6.jpeg -> 686649670b09c02a26244e69_54ace382-8079-4e84-a364-c98f5cd78cd1_resultf152cb9b760eacf6.jpeg (ID: 5033)
+ 9. 6889d0ea7af62863fdf72056_a9646f01-0f4f-413c-9fe5-0b01eab8e824_resultcbf8d64b5b46fcba.jpeg -> 6889d0ea7af62863fdf72056_a9646f01-0f4f-413c-9fe5-0b01eab8e824_resultcbf8d64b5b46fcba.jpeg (ID: 4118)
+10. 684bd92fcd1be12bfb12f501_23b134cf-45e2-4dbe-a276-b6c705b7f8f8_result133cd951f1e1db79.jpeg -> 684bd92fcd1be12bfb12f501_23b134cf-45e2-4dbe-a276-b6c705b7f8f8_result133cd951f1e1db79.jpeg (ID: 2314)
+11. 686d164b811c4ac6e688267e_8507d85e-b691-4006-8a18-4160e3b943c1_result9fe5810914028dc7.jpeg -> 686d164b811c4ac6e688267e_8507d85e-b691-4006-8a18-4160e3b943c1_result9fe5810914028dc7.jpeg (ID: 2978)
+12. 685cb98a4b7cf1254a12aaf8_ee186c72-0669-4bd1-8ab5-584ff81ca37c_result2cb7c41628ef2ad6.jpeg -> 685cb98a4b7cf1254a12aaf8_ee186c72-0669-4bd1-8ab5-584ff81ca37c_result2cb7c41628ef2ad6.jpeg (ID: 2637)
+13. 684c3a3299ed36b2a2be5ad1_bdbb37d8-5c4b-4071-b9f4-2b803ce7cd2d_result19e2b7aded13f371.jpeg -> 684c3a3299ed36b2a2be5ad1_bdbb37d8-5c4b-4071-b9f4-2b803ce7cd2d_result19e2b7aded13f371.jpeg (ID: 2337)
+14. 685a45fa80fac5302529336d_fde6f134-5ed3-4fb3-828d-60b972b44120_result46f6c176e16e2131.jpeg -> 685a45fa80fac5302529336d_fde6f134-5ed3-4fb3-828d-60b972b44120_result46f6c176e16e2131.jpeg (ID: 2531)
+15. 68a37e73be7aee9f220ce5a6_7242eaf5-b30c-443c-b5eb-138e03ae0109_result0a3a0dea6df306d2.jpeg -> 68a37e73be7aee9f220ce5a6_7242eaf5-b30c-443c-b5eb-138e03ae0109_result0a3a0dea6df306d2.jpeg (ID: 2021)
+16. 6859e59623604f0cf9b000a9_ac098b25-fe56-42d9-8c13-87165ba60ee2_resultc575efbd82fdb37a.jpeg -> 6859e59623604f0cf9b000a9_ac098b25-fe56-42d9-8c13-87165ba60ee2_resultc575efbd82fdb37a.jpeg (ID: 3781)
+17. 685ec4894729a0442e87b30f_012ca5dd-5c0d-4026-83d4-8bf24321a8ea_result124f4767ead26da0.jpeg -> 685ec4894729a0442e87b30f_012ca5dd-5c0d-4026-83d4-8bf24321a8ea_result124f4767ead26da0.jpeg (ID: 2852)
+18. 68745d590100dcdbb2e5713d_63acdd1b-9f66-4532-974f-1635e9d6031d_result2d2e41f3737e20c0.jpeg -> 68745d590100dcdbb2e5713d_63acdd1b-9f66-4532-974f-1635e9d6031d_result2d2e41f3737e20c0.jpeg (ID: 4440)
+19. 6875bcfd98e91e14c303bb5a_0248b3df-741d-438e-80f5-b0884d14e690_result2e5e3f507193d4c2.jpeg -> 6875bcfd98e91e14c303bb5a_0248b3df-741d-438e-80f5-b0884d14e690_result2e5e3f507193d4c2.jpeg (ID: 4013)
+20. 687a28c903563754f91991f0_452c7cba-dbc1-4f03-afee-37592eabfe15_result05007c33a00a5ee0.jpeg -> 687a28c903563754f91991f0_452c7cba-dbc1-4f03-afee-37592eabfe15_result05007c33a00a5ee0.jpeg (ID: 3195)
