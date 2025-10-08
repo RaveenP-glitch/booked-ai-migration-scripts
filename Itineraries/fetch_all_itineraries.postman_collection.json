@@ -1,0 +1,2423 @@
+{
+	"info": {
+		"_postman_id": "fetch-all-itineraries-collection",
+		"name": "Fetch All Itineraries - Paginated",
+		"description": "Collection to fetch all itinerary entries from Strapi using pagination",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch All Itineraries (Page 1)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=1&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "1"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch first page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 2)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=2&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "2"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch second page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 3)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=3&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "3"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch third page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 4)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=4&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "4"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fourth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 5)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=5&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "5"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 6)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=6&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "6"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch sixth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 7)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=7&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "7"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch seventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 8)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=8&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "8"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch eighth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 9)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=9&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "9"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch ninth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 10)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=10&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "10"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch tenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 11)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=11&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "11"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch eleventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 12)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=12&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "12"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twelfth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 13)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=13&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "13"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 14)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=14&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "14"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fourteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 15)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=15&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "15"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 16)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=16&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "16"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch sixteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 17)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=17&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "17"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch seventeenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 18)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=18&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "18"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch eighteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 19)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=19&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "19"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch nineteenth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 20)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=20&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "20"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twentieth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 21)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=21&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "21"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-first page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 22)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=22&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "22"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-second page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 23)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=23&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "23"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-third page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 24)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=24&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "24"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-fourth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 25)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=25&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "25"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-fifth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 26)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=26&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "26"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-sixth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 27)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=27&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "27"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-seventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 28)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=28&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "28"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-eighth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 29)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=29&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "29"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch twenty-ninth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 30)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=30&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "30"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirtieth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 31)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=31&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "31"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-first page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 32)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=32&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "32"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-second page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 33)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=33&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "33"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-third page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 34)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=34&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "34"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-fourth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 35)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=35&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "35"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-fifth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 36)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=36&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "36"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-sixth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 37)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=37&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "37"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-seventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 38)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=38&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "38"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-eighth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 39)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=39&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "39"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch thirty-ninth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 40)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=40&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "40"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fortieth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 41)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=41&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "41"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-first page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 42)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=42&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "42"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-second page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 43)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=43&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "43"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-third page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 44)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=44&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "44"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-fourth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 45)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=45&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "45"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-fifth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 46)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=46&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "46"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-sixth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 47)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=47&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "47"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-seventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 48)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=48&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "48"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-eighth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 49)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=49&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "49"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch forty-ninth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 50)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=50&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "50"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fiftieth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 51)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=51&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "51"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-first page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 52)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=52&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "52"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-second page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 53)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=53&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "53"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-third page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 54)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=54&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "54"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-fourth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 55)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=55&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "55"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-fifth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 56)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=56&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "56"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-sixth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 57)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=57&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "57"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-seventh page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 58)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=58&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "58"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-eighth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 59)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=59&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "59"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch fifty-ninth page of itineraries (25 entries)"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch All Itineraries (Page 60)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/itineraries?pagination[page]=60&pagination[pageSize]=25",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"itineraries"
+					],
+					"query": [
+						{
+							"key": "pagination[page]",
+							"value": "60"
+						},
+						{
+							"key": "pagination[pageSize]",
+							"value": "25"
+						}
+					]
+				},
+				"description": "Fetch sixtieth page of itineraries (25 entries)"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://127.0.0.1:1337",
+			"type": "string"
+		},
+		{
+			"key": "apiToken",
+			"value": "9382471654bbab0ee14762297c0b64830eabd9cbe20e62f1c90f55d90728d5249a449a9abffbe511e012330ac4f5830bf814639d5c365cc42b8aa80a497a79148507de6226e124fe982a8fbfd7cefffed56caae7ee89687059fd90e763b407461edb4c9aba5e4dc76b9214cda12b80cddb523148f6c33baa6a53e558164ccbf4",
+			"type": "string"
+		}
+	]
+}
+
