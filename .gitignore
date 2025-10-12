@@ -40,3 +40,10 @@
 *.ape
 *.opus
 
+# Node modules
+node_modules/
+package-lock.json
+
+# Large output files (optional - uncomment if needed)
+# Graphql-asset-manager/media-ids-and-names.json
+

@@ -1,0 +1,35 @@
+{
+  "total_entries": 4040,
+  "num_parts": 4,
+  "entries_per_part": 1010,
+  "parts": [
+    {
+      "part_number": 1,
+      "file": "Strapi_City_Blogs_Part_1_of_4.postman_collection.json",
+      "start_entry": 1,
+      "end_entry": 1010,
+      "total_entries": 1010
+    },
+    {
+      "part_number": 2,
+      "file": "Strapi_City_Blogs_Part_2_of_4.postman_collection.json",
+      "start_entry": 1011,
+      "end_entry": 2020,
+      "total_entries": 1010
+    },
+    {
+      "part_number": 3,
+      "file": "Strapi_City_Blogs_Part_3_of_4.postman_collection.json",
+      "start_entry": 2021,
+      "end_entry": 3030,
+      "total_entries": 1010
+    },
+    {
+      "part_number": 4,
+      "file": "Strapi_City_Blogs_Part_4_of_4.postman_collection.json",
+      "start_entry": 3031,
+      "end_entry": 4040,
+      "total_entries": 1010
+    }
+  ]
+}
