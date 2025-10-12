@@ -1,0 +1,283 @@
+{
+  "rootQueries": [
+    {
+      "name": "uploadFile",
+      "type": {
+        "name": "UploadFile",
+        "kind": "OBJECT"
+      },
+      "args": [
+        {
+          "name": "documentId",
+          "type": {
+            "name": null,
+            "kind": "NON_NULL"
+          }
+        },
+        {
+          "name": "status",
+          "type": {
+            "name": "PublicationStatus",
+            "kind": "ENUM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uploadFiles_connection",
+      "type": {
+        "name": "UploadFileEntityResponseCollection",
+        "kind": "OBJECT"
+      },
+      "args": [
+        {
+          "name": "filters",
+          "type": {
+            "name": "UploadFileFiltersInput",
+            "kind": "INPUT_OBJECT"
+          }
+        },
+        {
+          "name": "pagination",
+          "type": {
+            "name": "PaginationArg",
+            "kind": "INPUT_OBJECT"
+          }
+        },
+        {
+          "name": "sort",
+          "type": {
+            "name": null,
+            "kind": "LIST"
+          }
+        },
+        {
+          "name": "status",
+          "type": {
+            "name": "PublicationStatus",
+            "kind": "ENUM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uploadFiles",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL"
+      },
+      "args": [
+        {
+          "name": "filters",
+          "type": {
+            "name": "UploadFileFiltersInput",
+            "kind": "INPUT_OBJECT"
+          }
+        },
+        {
+          "name": "pagination",
+          "type": {
+            "name": "PaginationArg",
+            "kind": "INPUT_OBJECT"
+          }
+        },
+        {
+          "name": "sort",
+          "type": {
+            "name": null,
+            "kind": "LIST"
+          }
+        },
+        {
+          "name": "status",
+          "type": {
+            "name": "PublicationStatus",
+            "kind": "ENUM"
+          }
+        }
+      ]
+    }
+  ],
+  "uploadFileType": {
+    "name": "UploadFile",
+    "kind": "OBJECT",
+    "fields": [
+      {
+        "name": "documentId",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "ID",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "name",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "alternativeText",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "caption",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "width",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "height",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "formats",
+        "type": {
+          "name": "JSON",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "hash",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "ext",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "mime",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "size",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "Float",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "url",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "previewUrl",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "provider",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "kind": "SCALAR"
+          }
+        }
+      },
+      {
+        "name": "provider_metadata",
+        "type": {
+          "name": "JSON",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "related",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": "GenericMorph",
+            "kind": "UNION"
+          }
+        }
+      },
+      {
+        "name": "createdAt",
+        "type": {
+          "name": "DateTime",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "updatedAt",
+        "type": {
+          "name": "DateTime",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "publishedAt",
+        "type": {
+          "name": "DateTime",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      }
+    ]
+  }
+}

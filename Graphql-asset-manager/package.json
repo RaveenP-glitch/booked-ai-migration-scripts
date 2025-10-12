@@ -1,0 +1,23 @@
+{
+  "name": "graphql-asset-manager",
+  "version": "1.0.0",
+  "description": "Fetch media assets from Strapi using GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node fetch-media-rest.js",
+    "fetch:graphql": "node fetch-media.js",
+    "introspect": "node introspect-schema.js"
+  },
+  "keywords": [
+    "graphql",
+    "assets"
+  ],
+  "author": "Raveen Panditha",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-request": "^6.1.0",
+    "graphql": "^16.8.1",
+    "axios": "^1.6.2"
+  }
+}
