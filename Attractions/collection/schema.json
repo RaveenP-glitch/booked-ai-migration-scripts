@@ -1,0 +1,207 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attractions",
+  "info": {
+    "singularName": "attraction",
+    "pluralName": "attractions",
+    "displayName": "Attractions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Rating": {
+      "type": "decimal",
+      "min": 0
+    },
+    "Main_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Tag1": {
+      "type": "string"
+    },
+    "Tag2": {
+      "type": "string"
+    },
+    "Tag3": {
+      "type": "string"
+    },
+    "Formatted_Address": {
+      "type": "text"
+    },
+    "Inner_Page": {
+      "type": "blocks"
+    },
+    "Location": {
+      "type": "text"
+    },
+    "Explore": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::explore.explore"
+    },
+    "Main_Title": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Overview": {
+      "type": "text"
+    },
+    "Intro": {
+      "type": "text"
+    },
+    "Short_Summary": {
+      "type": "text"
+    },
+    "Entry_Fee": {
+      "type": "string"
+    },
+    "Visitor_Count": {
+      "type": "biginteger",
+      "min": "0"
+    },
+    "Visitor_Count_Description": {
+      "type": "text"
+    },
+    "Opening_Hours": {
+      "type": "blocks"
+    },
+    "Review_Count": {
+      "type": "biginteger"
+    },
+    "Review_Rating": {
+      "type": "string"
+    },
+    "Review_Text": {
+      "type": "text"
+    },
+    "Review_Link": {
+      "type": "string"
+    },
+    "Inner_Content": {
+      "type": "blocks"
+    },
+    "Photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Photo1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Photo2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Photo3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "FAQ1": {
+      "type": "text"
+    },
+    "FAQ2": {
+      "type": "text"
+    },
+    "FAQ3": {
+      "type": "text"
+    },
+    "FAQ4": {
+      "type": "text"
+    },
+    "FAQ5": {
+      "type": "text"
+    },
+    "Nearby_Attractions": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::attraction.attraction"
+    },
+    "Amenities": {
+      "type": "blocks"
+    },
+    "Best_Time_to_Visit": {
+      "type": "blocks"
+    },
+    "Photography_Allowed": {
+      "type": "blocks"
+    },
+    "Accessibility_Notes": {
+      "type": "blocks"
+    },
+    "Cultural_or_Religous_Notes": {
+      "type": "blocks"
+    },
+    "Historical_Significance": {
+      "type": "blocks"
+    },
+    "Famous_Events_or_Dates": {
+      "type": "blocks"
+    },
+    "Time_Required_to_Explore": {
+      "type": "blocks"
+    },
+    "Kid_or_Family_Friendly": {
+      "type": "blocks"
+    },
+    "Weather_Sensitivity": {
+      "type": "blocks"
+    },
+    "Transportation_and_Accessibility": {
+      "type": "blocks"
+    },
+    "Sitemap_Indexing": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
