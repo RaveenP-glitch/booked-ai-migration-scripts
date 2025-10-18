@@ -1,0 +1,20 @@
+{
+  "name": "attractions-manager",
+  "version": "1.0.0",
+  "description": "Script to fetch and manage attractions entries from Strapi",
+  "main": "fetch-all-attractions.js",
+  "scripts": {
+    "fetch": "node fetch-all-attractions.js"
+  },
+  "keywords": [
+    "strapi",
+    "attractions",
+    "migration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "csv-parser": "^3.2.0"
+  }
+}

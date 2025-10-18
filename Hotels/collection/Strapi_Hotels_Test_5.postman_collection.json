@@ -1,0 +1,170 @@
+{
+  "info": {
+    "name": "Strapi Hotels Test Collection (5 entries)",
+    "description": "Postman collection to upload 5 hotel entries to Strapi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Hotel: Baan Haad Ngam Boutique Resort",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"Baan Haad Ngam Boutique Resort\",\n    \"Slug\": \"baan-haad-ngam-boutique-resort\",\n    \"Description\": \"Explore Baan Haad Ngam Boutique Resort in Koh Samui with your AI Travel Agent. This oasis of tranquility is perfect for your next escape. Use your Trip Planner App to discover hidden gems on your trip to Koh Samui. Fly with cheap flights and book cheap hotels through our Koh Samui Travel Agent. Located among lush tropical greenery, this resort offers an intimate vibe, making it one of the best hotels in Koh Samui for beach lovers. Optimize your Koh Samui booking to enjoy a serene stay. With stunning views and easy access to the island's attractions, you won't regret choosing this spot for your next adventure. Let our AI Travel guide you to cheap hotels and stays in Koh Samui, ensuring an unforgettable experience with unparalleled comfort and leisure.\",\n    \"Formatted_Address\": \"154, Chaweng Beach, Bo Put, Amphoe Ko Samui, Surat Thani 84320, Thailand\",\n    \"Ratings\": 4.6,\n    \"Tag1\": \"Affordable Luxury\",\n    \"Tag2\": \"Tropical Retreat\",\n    \"Tag3\": \"Beachfront Paradise\",\n    \"Sitemap_Indexing\": true,\n    \"Image\": 17644,\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Baan Haad Ngam Boutique Resort is a luxurious choice for travelers exploring the enchanting island of Koh Samui. Nestled on the picturesque Chaweng Beach, it offers stunning sea views and top-notch amenities. To make travel to this beautiful destination convenient and budget-friendly, consider using a trip planner app or AI Travel Agent to find cheap flights and budget hotels. When planning your trip to Koh Samui, the resort is well-located for exploring nearby attractions while also providing serene relaxation. Utilize AI Travel solutions to easily compare hotels in Koh Samui, ensuring you find the best deals on your stay. Whether you fly for leisure or adventure, a cheap hotel like Baan Haad Ngam Boutique Resort provides an unforgettable experience.\"\n          }\n        ]\n      }\n    ],\n    \"Explore\": \"sm4bym1qxv3as8291dq60yl8\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{BASE_URL}}/api/hotels",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "api",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Hotel: Hostal La Terracita",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"Hostal La Terracita\",\n    \"Slug\": \"hostal-la-terracita\",\n    \"Description\": \"Discover Hostal La Terracita, your dream escape in Ibiza, where AI Travel Agent and Trip Planner App guide you to cheap flights and perfect stays in Ibiza. This cozy gem is a must-add to your Ibiza travel itinerary, offering affordable luxury amidst the island's vibrant charm. With a focus on cheap hotels and unbeatable recommendations from your AI Travel app, experience why frequent travelers love to fly to Ibiza and enjoy the sunlit terraces. Unforgettable stays in Ibiza await with seamless bookings from your favorite online Ibiza Travel Agent. Explore, relax, and plan your trip to Ibiza with Ibizabooking magic at Hostal La Terracita.\",\n    \"Formatted_Address\": \"Carrer Pou des Pujols, 2, 07849 Santa Eulària des Riu, Illes Balears, Spain\",\n    \"Ratings\": 4.4,\n    \"Tag1\": \"Budget Stay\",\n    \"Tag2\": \"Chill Oasis\",\n    \"Tag3\": \"lbiza Stay\",\n    \"City\": \"Santa Eulària des Riu\",\n    \"Country\": \"Spain\",\n    \"Overview\": \"Hostal La Perla offers bright and comfortable lodging options in Santa Eulària des Riu, Ibiza. The property features an outdoor pool and an excellent Mediterranean restaurant. Guests can choose between apartment-style accommodations or bed and breakfast options, all with friendly service.\",\n    \"Intro\": \"Welcome to Hostal La Perla, a charming and bright hostel located in the beautiful Santa Eulària des Riu. Enjoy comfortable accommodations with excellent service and a wonderful Mediterranean restaurant on site.\",\n    \"Short_Summary\": \"Bright lodgings with free Wi-Fi, plus an outdoor pool & a Mediterranean restaurant.\",\n    \"Website\": \"https://sites.google.com/view/hostal-la-perla/\",\n    \"Phone_Number\": \"+34871180504\",\n    \"Price\": \"$$\",\n    \"Check_in\": \"15:00\",\n    \"Check_out\": \"10:00\",\n    \"Review_Count\": 205,\n    \"Review_Text\": \"Superbly appointed hostel in Es Cana. Comfortable rooms either as an apartment or on a bed & breakfast basis. Excellent restaurant beneath the property with wonderfully friendly hard-working staff on hand to help. Especial mention for the wonderful Ana who goes about her business with an ever-present smile, nothing is too much for this lovely lady, everybody loves Ana !! Go, see & enjoy !!!\",\n    \"Review_Rating\": \"Excellent\",\n    \"FAQ1\": \"What types of rooms are available at Hostal La Perla?\",\n    \"FAQ2\": \"Is there an on-site restaurant?\",\n    \"FAQ3\": \"Does the hostel have swimming facilities?\",\n    \"FAQ4\": \"What is the check-in and check-out time?\",\n    \"FAQ5\": \"Is free Wi-Fi available throughout the property?\",\n    \"Policies\": \"Check-in is at 3:00 PM and check-out at 10:00 AM. The hotel offers both apartment and bed & breakfast accommodation options. Children are welcome, but pet policies should be confirmed directly with the property. Major credit cards are accepted, and the property may have limited wheelchair accessibility.\",\n    \"Sustainability\": \"As a budget-friendly hostel, Hostal La Perla likely employs basic energy-saving measures such as LED lighting and water conservation practices. The Mediterranean restaurant may source local ingredients when possible, supporting regional producers. Guests are encouraged to reuse towels to reduce water consumption during their stay.\",\n    \"Accessibility\": \"Located on Carrer Pou des Pujols in Es Cana, Santa Eulària des Riu, the hostel is easily accessible by local transportation. The area is well-connected with bus services and taxis available. The property is situated in a walkable neighborhood with shops and amenities nearby, though those with mobility concerns should inquire about specific accessibility features.\",\n    \"Sitemap_Indexing\": true,\n    \"Image\": 19807,\n    \"Photo1\": 14674,\n    \"Photo2\": 12523,\n    \"Photo3\": 22227,\n    \"Photos\": [\n      14674,\n      12523,\n      22227,\n      21151,\n      21149\n    ],\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Hostal La Terracita in Ibiza, Spain, offers an ideal stay for travelers looking for a convenient and budget-friendly option. Nestled in the heart of Ibiza, this charming hostal provides easy access to the island's vibrant nightlife and stunning beaches, making it a great choice for those planning a trip to Ibiza. The rooms are comfortable and affordable, catering to those seeking cheap hotels in the area. Ibiza's rich culture and excitement are just a short distance away, providing an authentic experience for visitors. When planning your journey, let an AI Travel Agent or Trip Planner App assist in finding cheap flights and cheap hotels like Hostal La Terracita, ensuring a seamless Ibiza adventure. This tool can enhance your experience by integrating AI travel insights, offering tailored recommendations for your stay.\"\n          }\n        ]\n      }\n    ],\n    \"Amenities\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Free Wi-Fi\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Outdoor swimming pool\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Mediterranean restaurant\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Comfortable rooms\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Apartment-style accommodations\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Bed & breakfast option\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Pros\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Excellent friendly staff and service\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Great on-site Mediterranean restaurant\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Comfortable and well-appointed rooms\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Cons\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Limited luxury amenities\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Basic hostel facilities\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"May have noise from restaurant below\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Nearby_Attractions\": [\n      \"jq31f6hl7la3tthkhh8iftb9\",\n      \"g4k6ucwxbun6wit7y3t6ytqd\",\n      \"itdrubouourzo2t5lcdskdp3\",\n      \"o30ucl79agr08z1y24jdtshk\",\n      \"eiatk9y3uxlkivk2tycrgtj2\"\n    ],\n    \"Explore\": \"vzfsf6u7nzv2me8k2xtrai0f\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{BASE_URL}}/api/hotels",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "api",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Hotel: Le Méridien Stuttgart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"Le Méridien Stuttgart\",\n    \"Slug\": \"le-meridien-stuttgart\",\n    \"Description\": \"Discover Le Méridien Stuttgart, the perfect destination for your next trip to Stuttgart, Germany. With our AI Travel Agent and Trip Planner App, finding cheap flights and cheap hotels has never been easier. As you explore this vibrant city, let the luxurious stays at Le Méridien elevate your experience. This hotel offers more than just a room; it's a gateway to Stuttgart's rich culture. Booked AI Travel Agent ensures seamless Le Méridien booking with options for cheap hotel stays tailored to your needs. Frequent travelers and travel enthusiasts will appreciate how AI Travel revolutionizes Stuttgart travel plans. Whether you're flying to Stuttgart or seeking cheap hotels in the city, Le Méridien promises an unforgettable stay.\",\n    \"Formatted_Address\": \"Willy-Brandt-Straße 30, 70173 Stuttgart, Germany\",\n    \"Ratings\": 4.4,\n    \"Tag1\": \"Budget Stay\",\n    \"Tag2\": \"Elegant Retreat\",\n    \"Tag3\": \"City Retreat\",\n    \"Sitemap_Indexing\": true,\n    \"Image\": 10922,\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Exploring Stuttgart with Le M&eacute;ridien\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Thinking about a trip to Stuttgart? Your AI Travel Agent might suggest starting with Le M&eacute;ridien Stuttgart. Nestled in the heart of the city, it offers a blend of comfort and luxury that every enthusiastic traveler desires, whether you're booking through a Trip Planner App or seeking AI Travel recommendations.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Unveiling Stuttgart's Charm\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"When you Fly to Stuttgart, you step into a city that's both historic and vibrant. As you explore the city's delights, from the iconic Mercedes Museum to the lush Schlossgarten, staying at one of the best Hotels in Stuttgart like Le M&eacute;ridien ensures you're at the center of all activities.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Comfort Meets Class\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"For those seeking Cheap Hotels in Stuttgart without sacrificing quality, this is your spot. Here, comfort and style meld elegantly, with easy access to nearby attractions.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Conclusion\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Le M&eacute;ridien is not just a place to stay; it's an experience in Stuttgart. Your AI Travel journey will be more enriching with a stay at this gem. For your next adventure, let the charm of Stuttgart captivate you!\"\n          }\n        ]\n      }\n    ],\n    \"Explore\": \"npcl4p31lk2wuzh8xpj2oc16\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{BASE_URL}}/api/hotels",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "api",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Hotel: Ibis Budget Sydney East",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"Ibis Budget Sydney East\",\n    \"Slug\": \"ibis-budget-sydney-east\",\n    \"Description\": \"Discover Ibis Budget Sydney East, your perfect retreat in the vibrant heart of Sydney. This budget-friendly gem, ideal for savvy travelers, offers an incredible stay without breaking the bank. From AI Travel Agents to Trip Planner Apps, you're just a click away from your dream trip to Sydney. Experience the ease of AI Travel, where finding cheap flights and handy hotel bookings is a breeze. Ibis Budget, a standout among cheap hotels in Sydney, promises comfort and convenience without sacrificing style. Fly to Sydney and immerse yourself in a city where adventure meets relaxation. With stays in Sydney easily booked through your trusted AI travel app, you're set for an unforgettable journey. So, next time you book your trip, make Ibis Budget Sydney East your go-to destination for the ultimate travel experience.\",\n    \"Formatted_Address\": \"191-201 William St, Darlinghurst NSW 2010, Australia\",\n    \"Ratings\": 3.9,\n    \"Tag1\": \"Budget Accommodation\",\n    \"Tag2\": \"Budget Comfort\",\n    \"Tag3\": \"Sydney Accommodation\",\n    \"Sitemap_Indexing\": true,\n    \"Image\": 12224,\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Discover Ibis Budget Sydney East, nestled comfortably in the heart of vibrant Sydney, Australia. This friendly hotel is the ideal pick for budget-conscious wanderers with the assistance of a Trip Planner App or your favorite AI Travel Agent.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"For those plotting their next adventure, Sydney&rsquo;s charm unfolds right at Ibis Budget Sydney East&rsquo;s doorstep. This strategically located gem is a sensible choice for your Trip to Sydney if you're seeking a relaxing stay without overshadowing your travel budget. With a wealth of Cheap Hotels in Sydney, picking the right one often seems like a chore, yet this hotel checks every box for comfort and affordability.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Your AI Travel service ensures not only Cheap Hotels but also Cheap Flights, making flying to Sydney a breeze. In a city brimming with attractions and modern delights, Ibis Budget Sydney East isn't just a stay; it's your partner in a great adventure curated by your Sydney Travel Agent, ensuring every moment in this iconic city is unforgettable.\"\n          }\n        ]\n      }\n    ],\n    \"Explore\": \"q52hmxeolu23pklo0bmlwa4o\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{BASE_URL}}/api/hotels",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "api",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Hotel: The Willows Hotel",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Name\": \"The Willows Hotel\",\n    \"Slug\": \"the-willows-hotel\",\n    \"Description\": \"Discover The Willows Hotel in Chicago, where chic meets charm! Perfect for frequent travelers using AI Travel Agent or Trip Planner Apps, it guarantees memorable stays in this vibrant city. Dive into AI Travel with ease by booking cheap hotels like The Willows, ideal for a trip to Chicago. Your Chicago travel agent ensures seamless stays, with incredible Chicago hotel bookings, and cheap flights at your fingertips. Whether planning a quick fly to Chicago or an extended adventure, find cheap hotels in the city with just a click. Let your journey to the windy city begin with The Willows Hotel, your perfect base for city adventures!\",\n    \"Formatted_Address\": \"555 W Surf St, Chicago, IL 60657, USA\",\n    \"Ratings\": 4.2,\n    \"Tag1\": \"Affordable Accommodation\",\n    \"Tag2\": \"Cozy Retreat\",\n    \"Tag3\": \"City Escape\",\n    \"City\": \"Chicago\",\n    \"Country\": \"USA\",\n    \"Overview\": \"The Willows Hotel offers upscale quarters in a country-chic property, perfect for those looking for a unique and cozy stay in Chicago. Enjoy amenities like 24-hour coffee and afternoon cookies during your visit.\",\n    \"Intro\": \"Welcome to The Willows Hotel, a charming and cozy lodging option in the heart of Chicago. Enjoy its quaint atmosphere and convenient location for your next stay.\",\n    \"Short_Summary\": \"Upscale quarters in a country-chic property with afternoon cookies & 24-hour coffee.\",\n    \"Website\": \"https://www.willowshotelchicago.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing\",\n    \"Phone_Number\": \"+17735288400\",\n    \"Price\": \"$$\",\n    \"Check_in\": \"3:00 PM\",\n    \"Check_out\": \"10:00 AM\",\n    \"Review_Count\": 733,\n    \"Review_Text\": \"$339.00 per night X 3 Very true to be Quaint and Cozy. However, since it is so old and not updated there are things that the owners and management could and SHOULD do in order to want their patrons to return and/or refer the hotel on to others. These are a few of my experiences that could of been avoided. * Breakfast was advertised but when I checked in, was told No breakfast offered. *Cold coffee, (morning 1)offered in the lobby along with hot water for tea. One Generic container of powder creamer and a handful of sugar packets. Informed the person on duty of the Cold coffee. *Cold coffee, (morning 2) informed attendant at front desk. * Cold coffee, (morning 3) Used the microwave in the lobby to heat it up. * Asked the front desk if I could get another bottle of water. I was told No, you only get the two in your room. (Which you have to purchase.) * NO vending machines * No ice machines * Very limited TV channels * Plumbing/Hot water issues Hotel, rooms, hallways and lobby are all very outdated. Very understandable considering the age of the building. But you could offer so much more with just the small stuff to help your patrons look past the old and worn stuff. Shame on you! I love to visit Lakeview several times a year but I do not think I will stay at the Willows Hotel again.\",\n    \"Review_Rating\": \"Good\",\n    \"FAQ1\": \"Does The Willows Hotel offer breakfast?\",\n    \"FAQ2\": \"Is there a vending machine or ice machine available?\",\n    \"FAQ3\": \"What time is check-in and check-out?\",\n    \"FAQ4\": \"Is The Willows Hotel pet-friendly?\",\n    \"FAQ5\": \"Does the hotel offer wheelchair accessibility?\",\n    \"Policies\": \"The Willows Hotel has a no-pets policy and does not offer breakfast. Guests are provided with two bottles of water in their room, which must be purchased. There are no vending or ice machines on-site.\",\n    \"Sustainability\": \"The Willows Hotel does not have explicit sustainability initiatives, but its historic nature and smaller size contribute to a lower environmental impact compared to larger hotels.\",\n    \"Accessibility\": \"The hotel is located in a convenient area of Chicago with good public transportation options. However, the building's age may pose challenges for wheelchair access.\",\n    \"Sitemap_Indexing\": true,\n    \"Image\": 21965,\n    \"Photo1\": 21965,\n    \"Photo2\": 14876,\n    \"Photo3\": 13801,\n    \"Photos\": [\n      21965,\n      14876,\n      13801,\n      23520,\n      20297\n    ],\n    \"Inner_Page\": [\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Discover The Willows Hotel in vibrant Chicago, where charm meets comfort. Perfect for savvy travelers seeking an authentic Chicago experience, this gem is tucked in the charming Lakeview neighborhood. Let your AI Travel Agent guide you through its cozy ambiance.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"Picture waking up in a cozy room, stepping out to explore, then checking your Trip Planner App for nearby attractions. The city skyline beckons, but the quiet tree-lined streets feel like a sanctuary. AI Travel effortlessly finds cheap flights and cheap hotels, placing you in the heart of the action.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"As a Chicago travel enthusiast, you'll love the nearby attractions. Fly to Chicago with ease, and enjoy stays in Chicago that blend style and convenience. With cheap hotels in Chicago regularly popping up on your Trip to Chicago radar, The Willows offers a unique experience without breaking the bank.\"\n          }\n        ]\n      },\n      {\n        \"type\": \"paragraph\",\n        \"children\": [\n          {\n            \"type\": \"text\",\n            \"text\": \"In a city brimming with hotels, The Willows Hotel stands out for its intimate vibe and easy access to all things Chicago. Get ready to explore, unwind, and discover what makes Chicago so magnetic.\"\n          }\n        ]\n      }\n    ],\n    \"Amenities\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"24-hour coffee\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Afternoon cookies\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Free Wi-Fi\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Microwave in lobby\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Hot water for tea\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Pros\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Charming and cozy atmosphere\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Convenient location in Chicago\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"24-hour coffee available\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Cons\": [\n      {\n        \"type\": \"list\",\n        \"format\": \"unordered\",\n        \"children\": [\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Outdated facilities\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"No breakfast offered\"\n              }\n            ]\n          },\n          {\n            \"type\": \"list-item\",\n            \"children\": [\n              {\n                \"type\": \"text\",\n                \"text\": \"Limited amenities\"\n              }\n            ]\n          }\n        ]\n      }\n    ],\n    \"Nearby_Attractions\": [\n      \"cr7cf70mzcks1jhzs0728377\",\n      \"vugi5rayfr0cxxh3susn91w2\",\n      \"llmd62gxlc0bis2t3qupglsk\"\n    ],\n    \"Explore\": \"wgp8pz6cspo56la8mic0jidm\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{BASE_URL}}/api/hotels",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "api",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": []
+}

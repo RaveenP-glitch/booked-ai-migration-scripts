@@ -1,0 +1,109 @@
+{
+  "kind": "collectionType",
+  "collectionName": "explores",
+  "info": {
+    "singularName": "explore",
+    "pluralName": "explores",
+    "displayName": "Explores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Overview": {
+      "type": "text"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Number_of_Spots": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Style": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Author_Pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "Min_Read": {
+      "type": "string"
+    },
+    "Cost": {
+      "type": "string"
+    },
+    "City_Name": {
+      "type": "string"
+    },
+    "Hotels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hotel.hotel"
+    },
+    "Restaurants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant.restaurant"
+    },
+    "Attractions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::attraction.attraction"
+    },
+    "Itineraries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::itinerary.itinerary"
+    },
+    "City_blogs": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city-blog.city-blog"
+    },
+    "Main_Title": {
+      "type": "string"
+    },
+    "Sitemap_Indexing": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

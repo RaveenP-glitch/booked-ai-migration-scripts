@@ -1,0 +1,186 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotels",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Formatted_Address": {
+      "type": "text"
+    },
+    "Ratings": {
+      "type": "decimal",
+      "min": 0
+    },
+    "Tag1": {
+      "type": "string"
+    },
+    "Tag2": {
+      "type": "string"
+    },
+    "Tag3": {
+      "type": "string"
+    },
+    "Inner_Page": {
+      "type": "blocks"
+    },
+    "Explore": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::explore.explore"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Overview": {
+      "type": "text"
+    },
+    "Intro": {
+      "type": "text"
+    },
+    "Short_Summary": {
+      "type": "text"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "Phone_Number": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Amenities": {
+      "type": "blocks"
+    },
+    "Pros": {
+      "type": "blocks"
+    },
+    "Cons": {
+      "type": "blocks"
+    },
+    "Check_in": {
+      "type": "string"
+    },
+    "Check_out": {
+      "type": "string"
+    },
+    "Review_Count": {
+      "type": "integer"
+    },
+    "Review_Text": {
+      "type": "text"
+    },
+    "Review_Rating": {
+      "type": "string"
+    },
+    "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Photo1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Photo2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Photo3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "FAQ1": {
+      "type": "text"
+    },
+    "FAQ2": {
+      "type": "text"
+    },
+    "FAQ3": {
+      "type": "text"
+    },
+    "FAQ4": {
+      "type": "text"
+    },
+    "FAQ5": {
+      "type": "text"
+    },
+    "Policies": {
+      "type": "text"
+    },
+    "Sustainability": {
+      "type": "text"
+    },
+    "Accessibility": {
+      "type": "text"
+    },
+    "Nearby_Attractions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::attraction.attraction"
+    },
+    "Sitemap_Indexing": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

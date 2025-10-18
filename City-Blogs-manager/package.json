@@ -1,0 +1,20 @@
+{
+  "name": "city-blogs-manager",
+  "version": "1.0.0",
+  "description": "Script to fetch and manage city-blogs entries from Strapi",
+  "main": "fetch-all-city-blogs.js",
+  "scripts": {
+    "fetch": "node fetch-all-city-blogs.js"
+  },
+  "keywords": [
+    "strapi",
+    "city-blogs",
+    "migration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
+

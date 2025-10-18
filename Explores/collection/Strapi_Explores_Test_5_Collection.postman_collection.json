@@ -1,0 +1,176 @@
+{
+  "info": {
+    "name": "Strapi_Explores_Test_5_Collection",
+    "description": "Postman collection for uploading 5 Explores entries to Strapi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Trip to Bangkok",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Title\": \"Trip to Bangkok\",\n    \"Slug\": \"trip-to-bangkok\",\n    \"Overview\": \"Bangkok, a vibrant city full of life, offers a unique blend of culture and adventure. From stunning temples to bustling street markets, this destination has something for everyone. Perfect for travelers seeking excitement, flights to Bangkok are the first step towards an unforgettable trip. Use an AI Travel Agent for a hassle-free experience!\",\n    \"Location\": \"Bangkok, Thailand\",\n    \"Style\": \"Adventure\",\n    \"Duration\": \"5 days\",\n    \"Author\": \"Mennan Yelkenci\",\n    \"Min_Read\": \"3 min read\",\n    \"Cost\": \"$\",\n    \"City_Name\": \"Bangkok\",\n    \"Main_Title\": \"\",\n    \"Number_of_Spots\": 2,\n    \"Sitemap_Indexing\": true,\n    \"Image\": 9588,\n    \"Author_Pic\": 9601,\n    \"City_blogs\": \"k4pzqxcl9fyfafaul6d2dqur\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/explores",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "explores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "2. Trip to Istanbul",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Title\": \"Trip to Istanbul\",\n    \"Slug\": \"trip-to-istanbul\",\n    \"Overview\": \"Istanbul bridges Europe and Asia with rich history, markets and seaside views. It’s easy to navigate and full of hotel choices, perfect to plan through AI travel or a trip planner app.\",\n    \"Location\": \"Istanbul, Turkey\",\n    \"Style\": \"Foodie's Love\",\n    \"Duration\": \"5 days\",\n    \"Author\": \"Mennan Yelkenci\",\n    \"Min_Read\": \"4 min read\",\n    \"Cost\": \"$$\",\n    \"City_Name\": \"Istanbul\",\n    \"Main_Title\": \"\",\n    \"Number_of_Spots\": 3,\n    \"Sitemap_Indexing\": true,\n    \"Image\": 9623,\n    \"Author_Pic\": 9601,\n    \"City_blogs\": \"xio7g1il3ycf7fguhq8cizuy\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/explores",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "explores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "3. Trip to Rio de Janeiro",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Title\": \"Trip to Rio de Janeiro\",\n    \"Slug\": \"trip-to-rio-de-janeiro\",\n    \"Overview\": \"Rio de Janeiro is famous for its beaches, mountains and vibrant culture. With plenty of hotel options, it’s easy to explore using AI travel or a trip planner app for a scenic, lively stay.\",\n    \"Location\": \"Rio de Janeiro, Brazil\",\n    \"Style\": \"Foodie's Love\",\n    \"Duration\": \"5 days\",\n    \"Author\": \"Steven Wang\",\n    \"Min_Read\": \"4 min read\",\n    \"Cost\": \"$$\",\n    \"City_Name\": \"Rio de Janeiro\",\n    \"Main_Title\": \"\",\n    \"Number_of_Spots\": 3,\n    \"Sitemap_Indexing\": true,\n    \"Image\": 9591,\n    \"Author_Pic\": 9605,\n    \"City_blogs\": \"v6ocwmzmz4ob391snz2qsrec\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/explores",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "explores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "4. Trip to Sydney",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Title\": \"Trip to Sydney\",\n    \"Slug\": \"trip-to-sydney\",\n    \"Overview\": \"Sydney, Australia's stunning harbor city, offers a mix of adventure and relaxation. From iconic landmarks like the Sydney Opera House to beautiful beaches, it's perfect for thrill-seekers and leisure travelers alike. Use an AI travel agent or trip planner app to find great hotels and flights to Sydney for your next unforgettable experience!\",\n    \"Location\": \"Sydney, Australia\",\n    \"Style\": \"Adventure\",\n    \"Duration\": \"5 days\",\n    \"Author\": \"Steven Wang\",\n    \"Min_Read\": \"4 min read\",\n    \"Cost\": \"$$$\",\n    \"City_Name\": \"Sydney\",\n    \"Main_Title\": \"\",\n    \"Number_of_Spots\": 3,\n    \"Sitemap_Indexing\": true,\n    \"Image\": 9596,\n    \"Author_Pic\": 9605,\n    \"City_blogs\": \"lqylv0x9nrl36u9vz683j67q\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/explores",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "explores"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "5. Trip to Cairo",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"Title\": \"Trip to Cairo\",\n    \"Slug\": \"trip-to-cairo\",\n    \"Overview\": \"Cairo, a city rich in history and culture, invites visitors to experience its iconic landmarks like the Pyramids and the Egyptian Museum. Ideal for those planning a trip, this destination offers a unique blend of ancient and modern life. Looking for tips? Our AI Travel Agent can help you plan your perfect getaway!\",\n    \"Location\": \"Cairo, Egypt\",\n    \"Style\": \"Art & Culture Deep Dive\",\n    \"Duration\": \"5 days\",\n    \"Author\": \"Sanath K\",\n    \"Min_Read\": \"4 min read\",\n    \"Cost\": \"$$\",\n    \"City_Name\": \"Cairo\",\n    \"Main_Title\": \"\",\n    \"Number_of_Spots\": 4,\n    \"Sitemap_Indexing\": true,\n    \"Image\": 9606,\n    \"Author_Pic\": 9620,\n    \"City_blogs\": \"c2ds6bf1wd08abovtlu6z50p\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/explores",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "explores"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:1337",
+      "type": "string"
+    },
+    {
+      "key": "apiToken",
+      "value": "YOUR_API_TOKEN_HERE",
+      "type": "string"
+    }
+  ]
+}

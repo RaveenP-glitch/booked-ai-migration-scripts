@@ -1,0 +1,14 @@
+{
+  "name": "hotels-postman-generator",
+  "version": "1.0.0",
+  "description": "Generate Postman collections for Hotels migration to Strapi",
+  "main": "generate_postman_collection.js",
+  "scripts": {
+    "test": "node generate_postman_collection.js --test",
+    "generate": "node generate_postman_collection.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
+
